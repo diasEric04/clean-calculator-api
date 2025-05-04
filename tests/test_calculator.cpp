@@ -4,19 +4,19 @@
 #include "calculate.hpp"
 #include "calculator_errors.hpp"
 
-TEST(CalculatorClassTest, SumTest) {
+TEST(CalculatorClassTest, TestSumCalculatorReturnsCorrectResult) {
     SumCalculator<int> calc;
     int result = calc.calculate(NumbersPair<int>(2, 2));
     EXPECT_EQ(result, 4);
 }
 
-TEST(CalculatorClassTest, TestSumCalculatorReturnsCorrectResult) {
+TEST(CalculatorClassTest, TestMinusCalculatorReturnsCorrectResult) {
     MinusCalculator<int> calc;
     int result = calc.calculate(NumbersPair<int>(2, 2));
     EXPECT_EQ(result, 0);
 }
 
-TEST(CalculatorClassTest, TestMinusCalculatorReturnCorrectResult) {
+TEST(CalculatorClassTest, TestMultiplicationCalculatorReturnCorrectResult) {
     MultiplicationCalculator<int> calc;
     int result = calc.calculate(NumbersPair<int>(2, 2));
     EXPECT_EQ(result, 4);
