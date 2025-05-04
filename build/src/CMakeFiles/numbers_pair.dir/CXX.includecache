@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/numbers_pair.hpp
+type_traits
+-
+
+/home/edias/projetos/cpp/testes/src/numbers_pair.cpp
+numbers_pair.hpp
+/home/edias/projetos/cpp/testes/src/numbers_pair.hpp
+type_traits
+-
+

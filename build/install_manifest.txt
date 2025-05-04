@@ -1,0 +1,11 @@
+/usr/local/lib/libtestes.a
+/usr/local/include/map_of_operations.hpp
+/usr/local/include/numbers_pair.hpp
+/usr/local/include/calculate.hpp
+/usr/local/include/calculator.hpp
+/usr/local/include/CMakeLists.txt
+/usr/local/include/calculator_errors.hpp
+/usr/local/lib/cmake/TESTES/TESTESTargets.cmake
+/usr/local/lib/cmake/TESTES/TESTESTargets-noconfig.cmake
+/usr/local/lib/cmake/TESTES/TESTESConfig.cmake
+/usr/local/lib/cmake/TESTES/TESTESConfigVersion.cmake

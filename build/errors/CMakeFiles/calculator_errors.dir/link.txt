@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcalculator_errors.a  CMakeFiles/calculator_errors.dir/calculator_errors.cpp.o
+/usr/bin/ranlib libcalculator_errors.a

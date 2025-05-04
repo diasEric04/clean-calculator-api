@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmap_of_operations.a  CMakeFiles/map_of_operations.dir/map_of_operations.cpp.o
+/usr/bin/ranlib libmap_of_operations.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnumbers_pair.a  CMakeFiles/numbers_pair.dir/numbers_pair.cpp.o
+/usr/bin/ranlib libnumbers_pair.a

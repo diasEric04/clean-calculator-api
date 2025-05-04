@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/calculator.hpp
+numbers_pair.hpp
+../include/numbers_pair.hpp
+
+../include/calculator_errors.hpp
+exception
+-
+
+../include/numbers_pair.hpp
+type_traits
+-
+
+/home/edias/projetos/cpp/testes/src/calculator.cpp
+cmath
+-
+calculator.hpp
+/home/edias/projetos/cpp/testes/src/calculator.hpp
+calculator_errors.hpp
+/home/edias/projetos/cpp/testes/src/calculator_errors.hpp
+
